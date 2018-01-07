@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Appscript Prescriber TestSuite" duration-ms="792716" started-at="2018-01-07T09:54:56Z" finished-at="2018-01-07T10:08:08Z">
+    <groups>
+    </groups>
+    <test name="AppSccript Smoke Test" duration-ms="792716" started-at="2018-01-07T09:54:56Z" finished-at="2018-01-07T10:08:08Z">
+      <class name="FooterTestNavigation.Footertest">
+        <test-method status="PASS" signature="ApplicationLogin(java.lang.String)[pri:0, instance:FooterTestNavigation.Footertest@148080bb]" name="ApplicationLogin" is-config="true" duration-ms="24892" started-at="2018-01-07T15:24:56Z" finished-at="2018-01-07T15:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_TOS_BeforeLogin()[pri:1, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_TOS_BeforeLogin" duration-ms="7111" started-at="2018-01-07T15:25:21Z" finished-at="2018-01-07T15:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_TOS_BeforeLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_PrivacyPolicy_BeforeLogin()[pri:2, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_PrivacyPolicy_BeforeLogin" duration-ms="6887" started-at="2018-01-07T15:25:28Z" finished-at="2018-01-07T15:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_PrivacyPolicy_BeforeLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_AppStore_BeforeLogin()[pri:3, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_AppStore_BeforeLogin" duration-ms="27756" started-at="2018-01-07T15:25:35Z" finished-at="2018-01-07T15:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_AppStore_BeforeLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_IQVIA_BeforeLogin()[pri:4, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_IQVIA_BeforeLogin" duration-ms="361224" started-at="2018-01-07T15:26:02Z" finished-at="2018-01-07T15:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_IQVIA_BeforeLogin -->
+        <test-method status="PASS" signature="VerifyHelpLink_BeforeLogin()[pri:5, instance:FooterTestNavigation.Footertest@148080bb]" name="VerifyHelpLink_BeforeLogin" duration-ms="10548" started-at="2018-01-07T15:32:04Z" finished-at="2018-01-07T15:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHelpLink_BeforeLogin -->
+        <test-method status="PASS" signature="verifyLogin()[pri:6, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyLogin" duration-ms="11376" started-at="2018-01-07T15:32:14Z" finished-at="2018-01-07T15:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_TOS_AfterLogin()[pri:7, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_TOS_AfterLogin" duration-ms="6754" started-at="2018-01-07T15:32:26Z" finished-at="2018-01-07T15:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_TOS_AfterLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_PrivacyPolicy_AfterLogin()[pri:8, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_PrivacyPolicy_AfterLogin" duration-ms="6768" started-at="2018-01-07T15:32:32Z" finished-at="2018-01-07T15:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_PrivacyPolicy_AfterLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_AppStore_AfterLogin()[pri:9, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_AppStore_AfterLogin" duration-ms="34843" started-at="2018-01-07T15:32:39Z" finished-at="2018-01-07T15:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_AppStore_AfterLogin -->
+        <test-method status="PASS" signature="verifyFooterLinks_IQVIA_AfterLogin()[pri:10, instance:FooterTestNavigation.Footertest@148080bb]" name="verifyFooterLinks_IQVIA_AfterLogin" duration-ms="280305" started-at="2018-01-07T15:33:14Z" finished-at="2018-01-07T15:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks_IQVIA_AfterLogin -->
+        <test-method status="PASS" signature="VerifyHelpLink_AfterLogin()[pri:11, instance:FooterTestNavigation.Footertest@148080bb]" name="VerifyHelpLink_AfterLogin" duration-ms="10615" started-at="2018-01-07T15:37:54Z" finished-at="2018-01-07T15:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHelpLink_AfterLogin -->
+        <test-method status="PASS" signature="VerifyLogout()[pri:12, instance:FooterTestNavigation.Footertest@148080bb]" name="VerifyLogout" duration-ms="3549" started-at="2018-01-07T15:38:05Z" finished-at="2018-01-07T15:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogout -->
+        <test-method status="PASS" signature="ReportFlush()[pri:0, instance:FooterTestNavigation.Footertest@148080bb]" name="ReportFlush" is-config="true" duration-ms="15" started-at="2018-01-07T15:38:08Z" finished-at="2018-01-07T15:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportFlush -->
+      </class> <!-- FooterTestNavigation.Footertest -->
+    </test> <!-- AppSccript Smoke Test -->
+  </suite> <!-- Appscript Prescriber TestSuite -->
+</testng-results>

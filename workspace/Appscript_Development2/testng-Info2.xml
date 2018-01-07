@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appscript Prescriber TestSuite" parallel="none">
+  <test name="AppSccript Regression Suite 1">
+     <parameter name="browser" value="chrome"/>
+       <!-- <parameter name="browser" value="IE"/> -->
+<!--   <parameter name="browser" value="firefox"/> --> 
+   <classes>
+     <class name="appscriptAutomationTest.TestcaseTrigger"/>
+     <!-- <class name="appscriptBagTest.AddOrRemoveBag_BagLimitValidation"/>-->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+ <!--<test name="AppSccript Bag Suite">-->
+   <!-- <parameter name="browser" value="chrome"/>-->
+       <!--   <classes>-->
+   <!--   <class name="appscriptBagTest.AddOrRemoveBag_BagLimitValidation"/>-->
+  <!--  </classes>-->
+ <!-- </test>-->
+  </suite> <!-- Suite -->

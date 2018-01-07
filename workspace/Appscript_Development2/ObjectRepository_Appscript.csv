@@ -1,0 +1,104 @@
+Elementname,Locator
+LoginMainpage,id:login
+username,id:username
+password,id:password
+USA,xpath://option[text()='United States']
+UK,xpath://option[text()='United Kingdom']
+UAE,xpath://option[text()='United Arab Emirates']
+Login,id:submit
+Apps,id:apps-dashboard
+Devices,id:devices-dashboard
+DigitalContent,id:content-dashboard
+mypatients,id:patients-link
+viewformulary,id:formulary-link
+help,id:help
+logout,id:logout
+#Appscategories,
+DietandNutrition,xpath://a[text()='Diet & Nutrition']
+DieaseSpecific,xpath://a[text()='Disease Specific']
+Exercise,xpath://a[text()='Exercise']
+HealthprvdsInsurance,xpath://a[text()='Healthcare Providers / Insurance']
+Lifestyleandstress,xpath://a[text()='Lifestyle & Stress']
+MedicationReminderInfo,xpath://a[text()='Medication Reminders & Info']
+TestCategory,xpath://a[text()='Test Category']
+womenHealthandPreg,"xpath://a[text()=""Women's  Health  & Pregnancy""]"
+#Appsprice,
+all,xpath://a[text()='All']
+free,xpath://a[text()='Free']
+freemium,xpath://a[text()='Freemium']
+paid,xpath://a[text()='Paid']
+price_div,xpath://div[@class='icon-bar info row']
+price,xpath:xpath://div[@class='price-inner']
+#DevicesCategories,
+#DevicesPrices,
+,
+searchappscript,id:query
+searchiconbutton,xpath://button[@class='btn btn-default dropdown-toggle']
+searchapps,xpath:(//a[@data-type='apps'])[1]
+searchdevices,xpath:(//a[@data-type='devices'])[1]
+searchdigitalcontent,xpath:(//a[@data-type='content'])[1]
+,
+sortby,id:sortby
+Score,xpath://option[@value='Score']
+AtoZ,xpath://option[@value='A-Z']
+ZtoA,xpath://option[@value='Z-A']
+priceHightoLow,xpath://option[@value='Price High-Low']
+priceLowtohigh,xpath://option[@value='Price Low-High']
+Popularity,xpath://option[@value='Popularity']
+facilityRating,xpath://option[@value='Facility Rating']
+Userrating,xpath://option[@value='User Rating']
+,
+backtoallresource,id:back-to-all-resources
+,
+recommendbutton,xpath://div[@class='prescribe col-md-12 col-xs-12 icon-bar-col']
+SwitchApple,xpath:(//i[@class='fa fa-apple'])[1]
+SwitchAndroid,xpath:(//i[@class='fa fa-android'])[1]
+platform,xpath:.//*[@class='platform-inner']/i
+Freebutton,xpath://div[@class='price-inner']/span[text()='Free']
+Freemiumbutton,xpath://div[@class='price-inner']/span[text()='Free+']
+FreeFilter,xpath:.//span[@class='bread-crumb removable'][text()='Free']
+FreemiumFilter,xpath:.//span[@class='bread-crumb removable'][text()='Freemium']
+PaidFilter,xpath:.//span[@class='bread-crumb removable'][text()='Paid']
+filter,xpath:.//*[@class='bread-crumb removable']
+appscriptlogo,id:logo
+,
+totalapps,xpath:.//*[@class='app-tile-upper row']
+,
+categoryfilter,xpath:.//*[@class='fade in']/em
+categories,xpath:.//*[@id='sidebar']/div/ul[1]/li/a
+,
+filtercat1,xpath:(.//*[@class='bread-crumb'])[2]
+filtercat2,xpath:(.//*[@class='bread-crumb'])[3]
+filtercat3,xpath:(.//*[@class='bread-crumb'])[4]
+,
+appclick,xpath:.//*[@class='app-icon-wrapper']
+,
+category1,xpath:.//*[@id='sidebar']/div/ul[1]/li[1]/a
+deviceicon,id:Icon
+,
+digitalcontenticon,xpath:.//*[@class='content-type-icon']
+mypatientslink,id:patients-link
+heading,xpath:.//*[@id='content']/div/h1
+formularylink,id:formulary-link
+waiticon,xpath:.//*[@class='app-icon-wrapper']/img
+pricerange1,id:priceRange-1
+pricerange2,id:priceRange-2
+pricerange3,id:priceRange-3
+pricerange4,id:priceRange-4
+pricerange5,id:priceRange-5
+pricerange6,id:priceRange-6
+pricerange7,id:priceRange-7
+pricerangefilter,xpath:.//*[@class='bread-crumb removable']
+apptext,xpath:(.//*[@class='app-name'])
+appname_recmend_click,xpath:.//*[@class='title row']/div
+patient_email,xpath:.//*[@class='form-group']/input
+checkbox,xpath:.//*[@class='form-group checkbox']/label
+textarea,xpath:.//*[@class='form-group']/textarea
+sendtopateint,xpath:.//*[@class='form-group text-center']/button
+patientslist,xpath:.//*[@class='table table-hover no-wrap dataTable no-footer dtr-inline']/tbody/tr
+appname_pat_page,xpath:.//*[@id='collapsable1']/ul/li/div[2]/span[1]
+instr_pat_page,xpath:.//*[@id='collapsable1']/div/div
+status_before,xpath:.//*[@id='prescriptions']/div[1]/div[1]/div[3]/div
+recommend1,xpath:(//div[@class='prescribe col-md-12 col-xs-12 icon-bar-col'])[1]
+contentSymbol1,xpath:.//*[@class='platform-inner']/i[@class='fa fa-play-circle content-type-icon']
+contentSymbol2,xpath:.//*[@class='platform-inner']/i[@class='fa fa-file-o content-type-icon']

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Appscript Prescriber TestSuite]">
+  <test name="AppSccript Smoke Test(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="FooterTestNavigation.Footertest">
+        <methods>
+          <include name="verifyFooterLinks_AppStore_AfterLogin"/>
+          <include name="verifyFooterLinks_IQVIA_BeforeLogin"/>
+          <include name="verifyLogin"/>
+          <include name="verifyFooterLinks_PrivacyPolicy_BeforeLogin"/>
+          <include name="verifyFooterLinks_TOS_AfterLogin"/>
+          <include name="verifyFooterLinks_IQVIA_AfterLogin"/>
+          <include name="VerifyHelpLink_AfterLogin"/>
+          <include name="ApplicationLogin"/>
+          <include name="verifyFooterLinks_PrivacyPolicy_AfterLogin"/>
+          <include name="verifyFooterLinks_AppStore_BeforeLogin"/>
+          <include name="VerifyLogout"/>
+          <include name="VerifyHelpLink_BeforeLogin"/>
+          <include name="verifyFooterLinks_TOS_BeforeLogin"/>
+        </methods>
+      </class> <!-- FooterTestNavigation.Footertest -->
+    </classes>
+  </test> <!-- AppSccript Smoke Test(failed) -->
+</suite> <!-- Failed suite [Appscript Prescriber TestSuite] -->
